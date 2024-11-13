@@ -30,25 +30,25 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 0, 0, 0),
-      appBar: AppBar(
-        backgroundColor: Color.fromARGB(0, 2, 2, 2),
-        title: Text("WhatsApp"),
-        foregroundColor: Color.fromARGB(255, 243, 240, 237),
-        actions: [
-          IconButton(
-            icon: Icon(Icons.qr_code_scanner),
-            onPressed: () {},
-          ),
-          IconButton(
-            icon: Icon(Icons.camera_alt_outlined),
-            onPressed: () {},
-          ),
-          IconButton(
-            icon: Icon(Icons.more_vert),
-            onPressed: () {},
-          ),
-        ],
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Color.fromARGB(0, 2, 2, 2),
+      //   title: Text("WhatsApp"),
+      //   foregroundColor: Color.fromARGB(255, 243, 240, 237),
+      //   actions: [
+      //     IconButton(
+      //       icon: Icon(Icons.qr_code_scanner),
+      //       onPressed: () {},
+      //     ),
+      //     IconButton(
+      //       icon: Icon(Icons.camera_alt_outlined),
+      //       onPressed: () {},
+      //     ),
+      //     IconButton(
+      //       icon: Icon(Icons.more_vert),
+      //       onPressed: () {},
+      //     ),
+      //   ],
+      // ),
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavBar(
         selectedIndex: _selectedIndex,

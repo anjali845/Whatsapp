@@ -34,8 +34,7 @@ class StatusScreen extends StatelessWidget {
             itemBuilder: (context, index) {
               return ListTile(
                 leading: CircleAvatar(
-                  backgroundImage:
-                      NetworkImage("https://placekitten.com/200/200"),
+                  backgroundImage: NetworkImage(""),
                 ),
                 title: Text("Anjali", style: TextStyle(color: Colors.white)),
                 subtitle: Text("11:11", style: TextStyle(color: Colors.grey)),
