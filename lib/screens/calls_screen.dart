@@ -16,7 +16,7 @@ class CallsScreen extends StatelessWidget {
         ),
         Expanded(
           child: ListView.builder(
-            itemCount: 10, // Replace with dynamic count if needed
+            itemCount: 10,
             itemBuilder: (context, index) {
               return ListTile(
                 leading: CircleAvatar(
