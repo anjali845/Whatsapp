@@ -4,6 +4,7 @@ import 'chats_screen.dart';
 import 'status_screen.dart';
 import 'communities_screen.dart';
 import 'calls_screen.dart';
+import 'splash_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -18,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     StatusScreen(),
     CommunitiesScreen(),
     CallsScreen(),
+    SplashScreen(),
   ];
 
   void _onItemTapped(int index) {
